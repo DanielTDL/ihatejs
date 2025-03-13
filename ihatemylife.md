@@ -59,8 +59,8 @@ let mom = 5 <br>
 </p>
 
 <p> 
+        operator precedence: 
     <ol>
-        <li>operator precedence    </li>
         <li>parenthesis ()    </li>
         <li>exponents **    </li>
         <li>multiplication * & division / & modulo %    </li>
