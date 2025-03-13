@@ -1,62 +1,81 @@
-Syntax & Basics
-variable = A container that stores a value.
+<p>
+Syntax & Basics<br>
+variable = A container that stores a value.<br>
+</p>
 
-let vs const vs var
-const cannot be reassign.
-var is function-scoped → It’s only limited inside a function but ignores block scopes (if, for, etc.).
-let is block-scoped → It stays inside the block ({}) where it’s declared.
-var is hoisted to the top with undefined as default value.
-let is hoisted, but it is NOT initialized—accessing it before declaration causes an error.
-var can be redeclared in the same scope.
-let cannot be redeclared in the same scope.
-Use let by default—it’s safer, avoids accidental redeclaration, and follows modern best practices.
-Avoid var unless working with very old JavaScript code.
+<p>
+let vs const vs var<br>
+const cannot be reassign.<br>
+var is function-scoped → It’s only limited inside a function but ignores block scopes (if, for, etc.).<br>
+let is block-scoped → It stays inside the block ({}) where it’s declared.<br>
+var is hoisted to the top with undefined as default value.<br>
+let is hoisted, but it is NOT initialized—accessing it before declaration causes an error.<br>
+var can be redeclared in the same scope.<br>
+let cannot be redeclared in the same scope.<br>
+Use let by default—it’s safer, avoids accidental redeclaration, and follows modern best practices.<br>
+Avoid var unless working with very old JavaScript code.<br>
+</p>
 
-data types:
-String
-Number
-Bigint
-Boolean
-Undefined
-Null
-Symbol
-Object
+<p>
+data types:<br>
+String<br>
+Number<br>
+Bigint<br>
+Boolean<br>
+Undefined<br>
+Null<br>
+Symbol<br>
+Object<br>
+</p>
 
-operators:
-operands (variable, value, etc.)
-operators (+, -, /, *, %, **)
+<p>
+operators:<br>
+operands (variable, value, etc.)<br>
+operators (+, -, /, *, %, **)<br>
+</p>
 
-let mom = 5 
-//mom = mom + 1;  6
-//mom = mom - 1;  4
-//mom = mom / 2;  2.5  
-//mom = mom * 2;  10
-//mom = mom % 2;  1  
-//mom = mom ** 2; 25
+<p>
+let mom = 5 <br>
+//mom = mom + 1;  6 <br>
+//mom = mom - 1;  4 <br>
+//mom = mom / 2;  2.5  <br>
+//mom = mom * 2;  10 <br>
+//mom = mom % 2;  1  <br>
+//mom = mom ** 2; 25 <br>
+</p> 
 
-//mom += 1;  6
-//mom -= 1;  4
-//mom /= 2;  2.5
-//mom *= 2;  10
-//mom %= 2;  1
-//mom **= 2; 25 
+<p>
+//mom += 1;  6 <br>
+//mom -= 1;  4 <br>
+//mom /= 2;  2.5 <br>
+//mom *= 2;  10 <br>
+//mom %= 2;  1 <br>
+//mom **= 2; 25 <br>
+</p>
 
-//mom++;
-//mom--;
+<p>
+//mom++; <br>
+//mom--; <br>
+</p>
 
-operator precedence
-    1. parenthesis ()
-    2. exponents **
-    3. multiplication * & division / & modulo %
-    4. addition + & substraction -
+<p> 
+    <ol>
+        <li>operator precedence    </li>
+        <li>parenthesis ()    </li>
+        <li>exponents **    </li>
+        <li>multiplication * & division / & modulo %    </li>
+        <li>addition + & substraction -    </li>
+    </ol>
+</p>
 
-//single line comment
+<p>
+//single line comment <br>
 
-/*   multi
-     line
-     comment
-*/
-
+/*   multi <br>
+     line <br>
+     comment <br>
+*/ <br>
+</p>
 =============================================================================================================================================
 
 
